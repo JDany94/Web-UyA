@@ -1,0 +1,35 @@
+body {
+    background:#f09595;
+
+}
+
+nav {
+    background: #36b5b0;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidenav {
+    background: #36b5b0;
+    text-align: center;
+}
+
+.sidenav li a{
+    color: #ffffff;
+}
+
+
+.page-footer   {
+    background: #f09595;
+    color: #22313F;
+}
+
+.footer-copyright .container{
+    color: #22313F;
+}
+
+.opiniones {
+    margin-bottom: 0px;
+    background: #36b5b0;
+}

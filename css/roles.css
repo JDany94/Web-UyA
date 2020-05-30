@@ -1,0 +1,28 @@
+.rol {
+    background-image: url("../imagenes/apreton_manos.jpg");
+    padding-bottom: 150px;
+    padding-top: 150px;
+    display: flex;
+    align-items: start;
+}
+
+
+
+.card-content {
+   
+}
+
+.card-action {
+    margin-top: -14px;
+    padding: 10px;
+}
+
+.card-action .btn {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 150px;
+}
