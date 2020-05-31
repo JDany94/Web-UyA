@@ -6,15 +6,10 @@
     align-items: start;
 }
 
-
-
-.card-content {
-   
-}
-
 .card-action {
     margin-top: -14px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .card-action .btn {
@@ -25,4 +20,9 @@
 
 .card {
     height: 150px;
+}
+
+.titulo-cuadros {
+    display: flex;
+    justify-content: center;
 }
