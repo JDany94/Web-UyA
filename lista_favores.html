@@ -1,169 +1,176 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Banco del tiempo</title>
-        <meta name="author" content="Elvis, Leo, Daniel">
-        <meta name="description" content="La mejor opcion para ahorrar tiempo">
-        <link rel="icon" type="image/x-icon" href="" />
-        <link href="css/materialize.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
-        <link href="css/lista_fav.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
 
-    <header>
-        <!--    navegacion-->
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Banco de tiempo</a>
-                <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="modal-trigger" href="#inicio">Iniciar sesión</a></li>
-                    <li><a class="modal-trigger" href="#registro">Registrarse</a></li>
-                    <li><a href="#">Información</a></li>
+<head>
+    <meta charset="utf-8">
+    <title>Banco del tiempo</title>
+    <meta name="author" content="Elvis, Leo, Daniel">
+    <meta name="description" content="La mejor opcion para ahorrar tiempo">
+    <link rel="icon" type="image/x-icon" href="" />
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/lista_fav.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<header>
+    <!--    navegacion-->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Banco de tiempo</a>
+            <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="modal-trigger" href="#inicio">Iniciar sesión</a></li>
+                <li><a class="modal-trigger" href="#registro">Registrarse</a></li>
+                <li><a href="#">Información</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a class="modal-trigger" href="#inicio">Iniciar sesión</a></li>
+        <li><a class="modal-trigger" href="#registro">Registrarse</a></li>
+        <li><a href="#">Información</a></li>
+    </ul>
+    <!--    fin navegacion-->
+</header>
+
+<body>
+    <div class="contenedor container">
+        <div class="lista container">
+            <div class="lista-titulo">
+                <h4>Lista de favores activos</h4>
+            </div>
+            <div class="lista-favores">
+                <div class="favor">
+                    <div class="row valign-wrapper">
+                        <div class="col">
+                            <p>Marcelo</p>
+                        </div>
+                        <div class="col">
+                            <p>Transporte</p>
+                        </div>
+                        <div class="col">
+                            <p>1 horas</p>
+                        </div>
+                        <div class="col">
+                            <p>200 HC</p>
+                        </div>
+                        <div class="col s6">
+                            <p>Necesito buscar a alguien que busque a mis hijos al colegio.</p>
+                        </div>
+                    </div>
+                    <div class="entrar-favor">
+                        <a onclick="location.href='hacer_favor.html'" class="waves-effect waves-light btn">Entrar</a>
+                    </div>
+                </div>
+                <div class="favor">
+                    <div class="row valign-wrapper">
+                        <div class="col">
+                            <p>Daniel</p>
+                        </div>
+                        <div class="col">
+                            <p>Transporte</p>
+                        </div>
+                        <div class="col">
+                            <p>1 horas</p>
+                        </div>
+                        <div class="col">
+                            <p>200 HC</p>
+                        </div>
+                        <div class="col s6">
+                            <p>Necesito buscar a alguien que busque a mis hijos al colegio.</p>
+                        </div>
+                    </div>
+                    <div class="entrar-favor">
+                        <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
+                    </div>
+                </div>
+                <div class="favor">
+                    <div class="row valign-wrapper">
+                        <div class="col">
+                            <p>Leo</p>
+                        </div>
+                        <div class="col">
+                            <p>Tutorias Universitarias</p>
+                        </div>
+                        <div class="col">
+                            <p>2 horas</p>
+                        </div>
+                        <div class="col">
+                            <p>1000 HC</p>
+                        </div>
+                        <div class="col s6">
+                            <p>Necesito clases particulares de usabilidad y accesibilidad.</p>
+                        </div>
+                    </div>
+                    <div class="entrar-favor">
+                        <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
+                    </div>
+                </div>
+                <div class="favor">
+                    <div class="row valign-wrapper">
+                        <div class="col">
+                            <p>Messi</p>
+                        </div>
+                        <div class="col">
+                            <p>Ejercicio fisico</p>
+                        </div>
+                        <div class="col">
+                            <p>2 horas</p>
+                        </div>
+                        <div class="col">
+                            <p>400 HC</p>
+                        </div>
+                        <div class="col s6">
+                            <p>Busco un entrenador de futbol para practicar mis tiros al arco desde larga distancia y
+                                pases de balon tacticos.</p>
+                        </div>
+                    </div>
+                    <div class="entrar-favor">
+                        <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5>Introducción a HTML</h5>
+                <h6>Universidad de la laguna</h6>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5>Integrantes</h5>
+                <ul>
+                    <li>
+                        <h6>Elvis Nogueiras</h6>
+                    </li>
+                    <li>
+                        <h6>Leonardo Dorta</h6>
+                    </li>
+                    <li>
+                        <h6>Daniel Arbelo</h6>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <ul class="sidenav" id="mobile-demo">
-            <li><a class="modal-trigger" href="#inicio">Iniciar sesión</a></li>
-            <li><a class="modal-trigger" href="#registro">Registrarse</a></li>
-            <li><a href="#">Información</a></li>
-        </ul>
-        <!--    fin navegacion-->
-    </header>
-
-    <body>
-        <div class="contenedor container">
-            <div class="lista container">
-                <div class="lista-titulo">
-                    <h4>Lista de favores activos</h4>
-                </div>
-                <div class="lista-favores">
-                    <div class="favor">
-                        <div class="row valign-wrapper">
-                            <div class="col">
-                                <p>Marcelo</p>
-                            </div>
-                            <div class="col">
-                                <p>Transporte</p>
-                            </div>
-                            <div class="col">
-                                <p>1 horas</p>
-                            </div>
-                            <div class="col">
-                                <p>200 HC</p>
-                            </div>
-                            <div class="col s6">
-                                <p>Necesito buscar a alguien que busque a mis hijos al colegio.</p>
-                            </div>
-                        </div>
-                        <div class="entrar-favor">
-                            <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
-                        </div>
-                    </div>
-                    <div class="favor">
-                        <div class="row valign-wrapper">
-                            <div class="col">
-                                <p>Daniel</p>
-                            </div>
-                            <div class="col">
-                                <p>Transporte</p>
-                            </div>
-                            <div class="col">
-                                <p>1 horas</p>
-                            </div>
-                            <div class="col">
-                                <p>200 HC</p>
-                            </div>
-                            <div class="col s6">
-                                <p>Necesito buscar a alguien que busque a mis hijos al colegio.</p>
-                            </div>
-                        </div>
-                        <div class="entrar-favor">
-                            <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
-                        </div>
-                    </div>
-                    <div class="favor">
-                        <div class="row valign-wrapper">
-                            <div class="col">
-                                <p>Leo</p>
-                            </div>
-                            <div class="col">
-                                <p>Tutorias Universitarias</p>
-                            </div>
-                            <div class="col">
-                                <p>2 horas</p>
-                            </div>
-                            <div class="col">
-                                <p>1000 HC</p>
-                            </div>
-                            <div class="col s6">
-                                <p>Necesito clases particulares de usabilidad y accesibilidad.</p>
-                            </div>
-                        </div>
-                        <div class="entrar-favor">
-                            <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
-                        </div>
-                    </div>
-                    <div class="favor">
-                        <div class="row valign-wrapper">
-                            <div class="col">
-                                <p>Messi</p>
-                            </div>
-                            <div class="col">
-                                <p>Ejercicio fisico</p>
-                            </div>
-                            <div class="col">
-                                <p>2 horas</p>
-                            </div>
-                            <div class="col">
-                                <p>400 HC</p>
-                            </div>
-                            <div class="col s6">
-                                <p>Busco un entrenador de futbol para practicar mis tiros al arco desde larga distancia y
-                                    pases de balon tacticos.</p>
-                            </div>
-                        </div>
-                        <div class="entrar-favor">
-                            <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </body>
-
-    <footer class="page-footer">
+    </div>
+    <div class="footer-copyright">
         <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5>Introducción a HTML</h5>
-                    <h6>Universidad de la laguna</h6>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5>Integrantes</h5>
-                    <ul>
-                        <li><h6>Elvis Nogueiras</h6></li>
-                        <li><h6>Leonardo Dorta</h6></li>
-                        <li><h6>Daniel Arbelo</h6></li>
-                    </ul>
-                </div>
-            </div>
+            <h6>© 2020 ULL - USABILIDAD Y ACCESIBILIDAD</h6>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-            <h6>© 2020 ULL - USABILIDAD Y ACCESIBILIDAD</h6> 
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="js/materialize.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.sidenav');
-                var instances = M.Sidenav.init(elems);
-            });
-        </script>
+<script src="js/materialize.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+</script>
 
 </html>

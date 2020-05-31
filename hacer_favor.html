@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="" />
     <link href="css/materialize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/elegir_rol.css" rel="stylesheet">
+    <link href="css/hacer_fav.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -36,36 +36,54 @@
 
 <body>
     <div class="contenedor container">
-        <div class="row container">
+        <div class="row">
             <div class="col s12 m12 l6">
                 <div class="fondo col s12 m12 l12">
                     <div class="card">
                         <div class="card-content">
-                            <span class="card-title">Hacer Favores</span>
-                            <p>
-                                Aqui podras escoger algun favor de un usuario que necesita una mano,
-                                seras recompensado con helper coin.
-                            </p>
+                            <span class="card-title">Detalles del favor</span>
+                            <div class="favor">
+                                <div class="row">
+                                    <div class="col s6 m6 l6">
+                                        <p class="element">Marcelo</p>
+                                    </div>
+                                    <div class="col s6 m6 l6">
+                                        <p class="element">Transporte</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s6 m6 l6">
+                                        <p class="element">1 horas</p>
+                                    </div>
+                                    <div class="col s6 m6 l6">
+                                        <p class="element">200 HC</p>
+                                    </div>
+                                </div>
+                                <p>Necesito buscar a alguien que busque a mis hijos al colegio.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-btn">
-                        <a onclick="location.href='lista_favores.html'" class="btn">Entrar</a>
-                    </div>
+
                 </div>
             </div>
             <div class="col s12 m12 l6">
                 <div class="fondo col s12 m12 l12">
                     <div class="card">
                         <div class="card-content">
-                            <span class="card-title">Necesito un favor</span>
+                            <span class="card-title">Estado del favor</span>
                             <p>
-                                Si necesitas ayuda en alguna actividad, debes crear un favor en esta
-                                opcion para recibir ayuda de otros usuarios.
+                                Esperando a que el solicitante del favor acepte tu peticion...
+                            </p>
+                            <p>
+                                Estado: Pendiente
+                            </p>
+                            <p>
+                                Tiempo: 0:00:00
                             </p>
                         </div>
                     </div>
                     <div class="card-btn">
-                        <a onclick="location.href='crear_favores.html'" class="btn">Crear</a>
+                        <a onclick="location.href=''" class="btn">Terminar</a>
                     </div>
                 </div>
             </div>
