@@ -1,0 +1,49 @@
+body {
+    background-image: url("../imagenes/apreton_manos.jpg");
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    flex: 1;
+}
+
+.fondo {
+    background: #36b5b0;;
+    border-radius: 10px;
+}
+
+.card {
+    background: #298f8b;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    min-height: 160px;
+}
+
+.card-btn {
+    margin-top: -14px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #298f8b;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}

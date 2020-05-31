@@ -8,7 +8,7 @@
         <link rel="icon" type="image/x-icon" href="" />
         <link href="css/materialize.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
-        <link href="css/roles.css" rel="stylesheet">
+        <link href="css/elegir_rol.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
@@ -34,34 +34,38 @@
     </header>
 
     <body>
-        <div class="rol">
-            <div class="row">
+        <div class="contenedor container">
+            <div class="row container">
                 <div class="col s12 m12 l6">
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                    <span class="card-title">Hacer Favores</span>
-                    <p>
-                        Aqui podras escoger algun favor de un usuario que necesita una mano, 
-                        seras recompensado con helper coin.
-                    </p>
-                    </div>
-                </div>
-                <div class="card-action blue-grey">
-                    <a class="waves-effect waves-light btn">Entrar</a>
-                </div>
-                </div>
-                <div class="col s12 m12 l6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                        <span class="card-title">Necesito un favor</span>
-                        <p>
-                            Si necesitas ayuda en alguna actividad, debes crear un favor en esta
-                            opcion para recibir ayuda de otros usuarios.
-                        </p>
+                    <div class="fondo col s12 m12 l12">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Hacer Favores</span>
+                                <p>
+                                    Aqui podras escoger algun favor de un usuario que necesita una mano,
+                                    seras recompensado con helper coin.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <a onclick="location.href='lista_favores.html'" class="btn">Entrar</a>
                         </div>
                     </div>
-                    <div class="card-action blue-grey">
-                        <a onclick="location.href='lista_favores.html'" class="waves-effect waves-light btn">Crear</a>
+                </div>
+                <div class="col s12 m12 l6">
+                    <div class="fondo col s12 m12 l12">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title">Necesito un favor</span>
+                                <p>
+                                    Si necesitas ayuda en alguna actividad, debes crear un favor en esta
+                                    opcion para recibir ayuda de otros usuarios.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-btn">
+                            <a onclick="location.href='crear_favores.html'" class="btn">Crear</a>
+                        </div>
                     </div>
                 </div>
             </div>

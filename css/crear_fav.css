@@ -1,0 +1,50 @@
+body {
+    background-image: url("../imagenes/apreton_manos.jpg");
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contenedor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;    
+}
+
+.fondo {
+    background: #36b5b0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.lista-titulo {
+    text-align: center;
+    color: white;
+}
+
+.lista-favores {
+    background: #298f8b;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-adicional {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
