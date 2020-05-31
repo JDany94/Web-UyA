@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Banco del tiempo</title>
+        <meta name="author" content="Elvis, Leo, Daniel">
+        <meta name="description" content="La mejor opcion para ahorrar tiempo">
+        <link rel="icon" type="image/x-icon" href="" />
+        <link href="css/materialize.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/roles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <header>
+        <!--    navegacion-->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Banco de tiempo</a>
+                <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="modal-trigger" href="#inicio">Iniciar sesión</a></li>
+                    <li><a class="modal-trigger" href="#registro">Registrarse</a></li>
+                    <li><a href="#">Información</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a class="modal-trigger" href="#inicio">Iniciar sesión</a></li>
+            <li><a class="modal-trigger" href="#registro">Registrarse</a></li>
+            <li><a href="#">Información</a></li>
+        </ul>
+        <!--    fin navegacion-->
+    </header>
+
+    <body>
+        <div class="rol">
+            <div class="row">
+                <div class="card-action blue-grey darken-1 white-text">
+                    <span class="titulo-cuadros">Lista de favores</span><br>
+                    <table>
+                        <tr>
+                            <td>
+                                <label><input type="radio" name="interes" value="Tutorias Universitarias" />
+                                <span class="white-text">Tutorías universitarias (500HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Transporte"> 
+                                <span class="white-text">Transporte (100 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Tareas del hogar"> 
+                                <span class="white-text">Tareas del hogar (300 HC)</span></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="radio" name="interes" value="Actividades de trabajo">
+                                <span class="white-text">Actividades de trabajo  (500 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Cuidado de niños"> 
+                                <span class="white-text">Cuidado de niños (400 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Cuidado de personas mayores">
+                                <span class="white-text">Cuidado de personas mayores (400 HC)</span></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="radio" name="interes" value="Compras"> 
+                                <span class="white-text">Compras (200 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Planificar eventos"> 
+                                <span class="white-text">Planificar eventos (300 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Ejercicios físicos"> 
+                                <span class="white-text">Ejercicios físicos (200 HC)</span></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="radio" name="interes" value="Tutorías escolares"> 
+                                <span class="white-text">Tutorías escolares (200 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Cocina"> 
+                                <span class="white-text">Cocina (300 HC)</span></label>
+                            </td>
+                            <td>
+                                <label><input type="radio" name="interes" value="Limpieza"> 
+                                <span class="white-text">Limpieza (100 HC)</span></label>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                        Información adicional de tus necesidades:<br>
+                        <textarea name="adicional"></textarea>
+                    </p>
+                    <a onclick="location.href='https://www.facebook.com'" class="waves-effect waves-light btn">Solicitar</a>
+                </div>
+                           
+            </div>
+        </div>  
+    </body>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>Introducción a HTML</h5>
+                    <h6>Universidad de la laguna</h6>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5>Integrantes</h5>
+                    <ul>
+                        <li><h6>Elvis Nogueiras</h6></li>
+                        <li><h6>Leonardo Dorta</h6></li>
+                        <li><h6>Daniel Arbelo</h6></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            <h6>© 2020 ULL - USABILIDAD Y ACCESIBILIDAD</h6> 
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/materialize.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems);
+            });
+        </script>
+
+</html>
